@@ -34,7 +34,7 @@ body {
     url(./images/background.png), url(./images/background2.png),
     url(./images/background.png);
   background-size: 30vw 100vh, 193.71196754563894vh 193.71196754563894vh,
-    30vw 100vh, 193vh 150.937vh, 30vw 100vh, 35vw 110vh, 30vw 100vh, 35vw 100vh,
+    35vw 100vh, 193vh 150.937vh, 30vw 100vh, 35vw 110vh, 30vw 100vh, 35vw 100vh,
     30vw 100vh, 35vw 100vh, 30vw 100vh, 35vw 100vh, 30vw 100vh;
   background-position: left 33.557046979865774vh,
     left 20% top -3.2454361054766734vh, right 90vh, right 2vh, left 218vh,
@@ -60,7 +60,7 @@ body {
 .option {
   display: flex;
   margin-top: 8.11vh;
-  margin-left: 5vh;
+  margin-left: 13vh;
 }
 .option p {
   font-family: gilroyMedium;
@@ -173,15 +173,17 @@ body {
   font-weight: 600;
   font-size: 2.5vh;
   line-height: 3.89vh;
-  display: inline-block;
   border-radius: 6.08vh;
   cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  z-index: 0;
-  background: transparent;
+  background: linear-gradient(
+    133.95deg,
+    #f7941d -13.98%,
+    #ee4163 57.42%,
+    #8a2be2 112.06%
+  );
+  transition:1s;
 }
-.headerCall::before {
+/* .headerCall::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -199,9 +201,11 @@ body {
 }
 .headerCall:hover::before {
   opacity: 0;
-}
+} */
 .headerCall:hover {
   border: 1px solid #484949;
+  background: white;
+  color:black;
 }
 
 /* .headerCall:hover {

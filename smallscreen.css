@@ -76,7 +76,7 @@ body {
 .title22 {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 4vh;
+  font-size: 6vh;
   font-weight: 800;
   text-align: center;
   background: -webkit-linear-gradient(
@@ -91,8 +91,9 @@ body {
   font-size: 1.5vh;
   font-weight: 500;
   color: #c4c6d6;
-  margin-top: 4.87vh;
-  padding: 2vh;
+  margin-top: 0.87vh;
+  padding: 2vh 4vh;
+  
 }
 .headingPara br {
   display: none;
@@ -104,7 +105,7 @@ body {
   margin-top: 4vh;
 }
 .demo img {
-  margin-top: 0vh;
+  margin-top: -4vh;
   width: 9.67vh;
   height: 9vh;
   margin-left: -12vh;
@@ -116,7 +117,7 @@ body {
   width: 25vh;
   height: 6vh;
   border: none;
-  margin-top: 2vh;
+  margin-top: -2vh;
   margin-right: 1vh;
   font-weight: 600;
   font-size: 1.5vh;
@@ -146,7 +147,7 @@ body {
   background: transparent;
 }
 .video {
-  margin-top: 17vh;
+  margin-top: 10vh;
   width: 100%;
   height: 50vh;
 }
@@ -357,13 +358,12 @@ video {
   height: 51vh;
   width: 95%;
   margin-left: 2.5%;
-  margin-top: 4h;
+  margin-top: 4vh;
   background-color: #201e28;
 }
 #para1 {
   color: white;
   border-style: solid;
-  border-width: 0.2vh;
   border-image: conic-gradient(#f7941d, #ee4163, #8a2be2) 1;
   border-top: none;
   border-right: none;
@@ -547,9 +547,7 @@ video {
   -webkit-text-fill-color: transparent;
   margin-top: 2.17vh;
 }
-.cards h2 br {
-  display: none;
-}
+
 .ship-squad {
   margin-top: 5vh;
   width: 100%;
@@ -566,7 +564,7 @@ video {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-right: 0;
-  margin-top: 4vh;
+  margin-top: 9vh;
 }
 .ship-squad-cards {
   display: flex;
@@ -621,7 +619,7 @@ video {
   font-size: 1.5vh;
   font-family: gilroyRegular;
   color: #c4c6d6;
-  margin-top: 0px;
+  margin-top: -1vh;
   font-weight: 600;
   margin-left: 1vh;
 }
@@ -635,16 +633,16 @@ video {
 }
 .about-seo p {
   font-family: gilroyRegular;
-  margin-top: 3.17vh;
+  margin-top: 1.17vh;
   font-size: 1.5vh;
   color: #c4c6d6;
   margin-left: 0vh;
-  margin-bottom: 0vh;
+  margin-bottom: 0vh; 
   text-align: center;
 }
 
 .button-area {
-  margin-top: 4.57vh;
+  margin-top: 2.57vh;
   display: flex;
   width: 100%;
 }
@@ -655,7 +653,7 @@ video {
   width: 25vh;
   height: 7vh;
   border: none;
-  margin-top: 2vh;
+  margin-top: 1vh;
   margin-right: 1.87vh;
   margin-left: 8vh;
   font-weight: 600;
@@ -743,7 +741,7 @@ video {
 .rightEnd {
   display: flex;
   margin-left: 21vh;
-  margin-top: -10vh;
+  margin-top: -10.5vh;
 }
 
 .rightEnd h4 {
@@ -797,6 +795,14 @@ video {
   margin-left: 1%;
   border-top: 1px solid #272331;
 }
+.leftEnd {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #272331;
+  margin-top: 6.308066vh;
+  padding-top: 3vh;
+}
 .contact-footer p {
   font-size: 1vh;
   font-family: "Poppins", sans-serif;
@@ -820,6 +826,7 @@ video {
   text-align: center;
   font-size: 4vh;
   padding-top: 4vh;
+  padding-left: 2vh;
 }
 label {
   font-size: 2vh;
@@ -893,4 +900,8 @@ textarea {
   width: 8vh;
   margin-left: 1vh;
   margin-top: -1vh;
+}
+::placeholder {
+  font-size: 2vh;
+  padding-left: 5%;
 }
